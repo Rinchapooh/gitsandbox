@@ -18,7 +18,12 @@ $ git config --global user.name "Your Name Comes Here"
 $ git config --global user.email you@yourdomain.example.com
 
 
+git remote  remove origin
+git remote add origin https://github.com/Rinchapooh/gitlesson.git
+
+
 git remote add origin https://github.com/Rinchapooh/lessongit.git
+
 git remote set-url origin <new-remote-url> | Change remote repositories's URL
 git remote -v | show the remote repositories's url.
 
